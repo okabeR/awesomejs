@@ -115,7 +115,7 @@ class Wp_Cbf_Admin {
 		 *        Administration Menus: http://codex.wordpress.org/Administration_Menus
 		 *
 		 */
-		add_options_page( 'WP Cleanup and Base Options Functions Setup', 'WP Cleanup', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page')
+		add_options_page( 'WP Cleanup and Base Options Functions Setup', 'awesomejs', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page')
 		);
 	}
 
