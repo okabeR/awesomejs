@@ -54,10 +54,10 @@
 
 	<!-- remove injected CSS from comments widgets -->
 	<fieldset>
-		<legend class="screen-reader-text"><span>Remove Injected CSS for comment widget</span></legend>
+		<legend class="screen-reader-text"><span>Enable tingle.js</span></legend>
 		<label for="<?php echo $this->plugin_name;?>-comments_css_cleanup">
 			<input type="checkbox" id="<?php echo $this->plugin_name;?>-comments_css_cleanup" name="<?php echo $this->plugin_name;?>[comments_css_cleanup]" value="1" <?php checked( $comments_css_cleanup, 1 ); ?> />
-			<span><?php esc_attr_e( 'Remove Injected CSS for comment widget', $this->plugin_name ); ?></span>
+			<span><?php esc_attr_e( 'Enable tingle.js', $this->plugin_name ); ?></span>
 		</label>
 	</fieldset>
 
@@ -66,7 +66,7 @@
 		<legend class="screen-reader-text"><span>Remove Injected CSS for galleries</span></legend>
 		<label for="<?php echo $this->plugin_name;?>-gallery_css_cleanup">
 			<input type="checkbox" id="<?php echo $this->plugin_name;?>-gallery_css_cleanup" name="<?php echo $this->plugin_name;?>[gallery_css_cleanup]" value="1" <?php checked( $gallery_css_cleanup, 1 ); ?>  />
-			<span><?php esc_attr_e( 'Remove Injected CSS for galleries', $this->plugin_name ); ?></span>
+			<span><?php esc_attr_e( 'Random choice 1', $this->plugin_name ); ?></span>
 		</label>
 	</fieldset>
 
@@ -75,7 +75,7 @@
 		<legend class="screen-reader-text"><span><?php _e('Add Post, page or product slug to body class', $this->plugin_name);?></span></legend>
 		<label for="<?php echo $this->plugin_name;?>-body_class_slug">
 			<input type="checkbox" id="<?php echo $this->plugin_name;?>-body_class_slug" name="<?php echo $this->plugin_name;?>[body_class_slug]" value="1" <?php checked( $body_class_slug, 1 ); ?>  />
-			<span><?php esc_attr_e('Add Post slug to body class', $this->plugin_name);?></span>
+			<span><?php esc_attr_e('Random choice 2', $this->plugin_name);?></span>
 		</label>
 	</fieldset>
 
