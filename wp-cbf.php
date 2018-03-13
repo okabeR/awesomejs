@@ -13,15 +13,15 @@
  * @package           Wp_Cbf
  *
  * @wordpress-plugin
- * Plugin Name:       WP Cleanup and base Functions
- * Plugin URI:        https://github.com/g-kanoufi/wp-cleanup-and-basic-functions
- * Description:       Head section cleanup and many usual custom settings used on every website setup as images settings, privacy and basic admin customisations
+ * Plugin Name:       awesomejs
+ * Plugin URI:        https://github.com/okabeR
+ * Description:       Plugin that adds javascript libs
  * Version:           1.0.0
- * Author:            Guillaume Kanoufi
- * Author URI:        http://lostwebdesigns.com
+ * Author:            Tag
+ * Author URI:        https://github.com/okabeR
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       wp-cbf
+ * Text Domain:       awesomejs
  * Domain Path:       /languages
  */
 
